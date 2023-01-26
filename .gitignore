@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.env
+
+*.npy
+*.png
+*.RData
+*.csv
+
+.Rproj.user/
+.git/
