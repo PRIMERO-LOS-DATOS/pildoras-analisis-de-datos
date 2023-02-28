@@ -19,4 +19,4 @@ con <- dbConnect(RMySQL::MySQL(),
 dbListTables(con) # Lista todas las tablas disponibles en la base de datos
 dbWriteTable(con, "mtcars", mtcars) # Para crear tablas
 dbReadTable(con, "mtcars") # Para cargar una tabla en especifico
-dbSendQuery(con, "SELECT * FROM mtcars WHERE cyl = 4") # Hacer uso de setencia SQL
+dbSendQuery(con, "SELECT * FROM mtcars WHERE cyl = 4") # Hacer uso de sentencia SQL

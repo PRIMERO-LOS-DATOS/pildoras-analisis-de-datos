@@ -1,14 +1,14 @@
-install.packages('RMariaDB')
+install.packages('RMariaDB') # Driver
 install.packages('DBI')
 
 library(DBI)
 
-dbname <- ''
-host <- ''
+dbname <- 'base-de-datos'
+host <- 'us-east.connect.psdb.cloud'
 port <- 3306
-user <- ''
-password <- ''
-rootSSL <- paste0(getwd(),'cert.pem')
+user <- 'wbpvp7cmc5uxn70y5aub'
+password <- 'pscale_pw_dyI4h8b5i1xm38588e3UxpiqWNTvpGXeUIPw6h3slCe'
+rootSSL <- paste0(getwd(),'/V01_conexion-con-bases-de-datos-con-r/cert.pem')
 
 con <- dbConnect(RMariaDB::MariaDB(), 
                  dbname = dbname, 
