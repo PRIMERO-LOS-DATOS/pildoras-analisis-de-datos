@@ -1,3 +1,5 @@
+install.packages('mongolite')
+
 library(mongolite)
 
 queryList = mongo(collection=collection, 
